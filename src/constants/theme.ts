@@ -3,6 +3,7 @@
  * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
  */
 
+// @ts-ignore
 import '@/global.css';
 
 import { Platform } from 'react-native';
@@ -62,4 +63,5 @@ export const Spacing = {
 } as const;
 
 export const BottomTabInset = Platform.select({ ios: 50, android: 80 }) ?? 0;
+export const TopTabInset = Platform.select({ web: 90 }) ?? 0;
 export const MaxContentWidth = 800;

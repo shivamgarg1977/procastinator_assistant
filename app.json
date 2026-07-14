@@ -37,6 +37,9 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "router": {
+      "origin": "https://shivamgarg1977.github.io/procastinator_assistant/"
     }
   }
 }
